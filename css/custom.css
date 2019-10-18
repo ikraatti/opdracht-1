@@ -1,5 +1,15 @@
+
+
+
+
+
+
 @charset "UTF-8";
 /* CSS Document */
+.navbar-toggler{
+	background-color:  #D099F5;
+}
+
 input.form-control.mr-sm-2 {
   border-radius: 30px;
 }
@@ -23,20 +33,24 @@ input.form-control.mr-sm-2 {
 	}
 
 article{
-	    margin-top: 45px;
+	margin-top: 45px;
+
 }
 h2{
 	font-size: 18px;
     background-color: #D099F5;
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: center;
     color: white;
     padding: 5px;
 	margin-bottom: 20px;
 }
+.img-container {
+	position: relative;
+}
 
 .foto {
-  width: 350px;
+  width: 100%;
 	border: solid 8px #D099F5;
 	position: relative;
 	   
@@ -46,14 +60,15 @@ h2{
 	border: solid 8px #D099F5;
 	
 }
-h2.namen{
-	    margin-top: 250px;
-}
-.spotify{
+
+
+
+
+.album-link .spotify{
 	width: 40px;
-    position: absolute;
+    /*position: absolute;
     right: 15px;
-    bottom: -80px;
+    bottom: -80px;*/
 }
 .jaar{
 	background-color: white;
@@ -72,7 +87,7 @@ p {line-height: 80%;
 .cijfer{
 	position: absolute;
     bottom: -25px;
-    left: 170px;
+    left: 40%;
     padding: 15px 24px 15px 24px;
     background-color: #EEB796;
     border-radius: 70%;
@@ -81,10 +96,10 @@ p {line-height: 80%;
     font-size: 18px;
 	
 }
-.btn-primary {
-	position: absolute;
-    bottom: -100px;
-    
+a.btn-primary {
+	/*position: absolute;
+    bottom: -100px;*/
+    display: block;
     font-size: 18px;
     background-color: #D099F5;
     border-radius: 20px;
@@ -92,14 +107,12 @@ p {line-height: 80%;
     color: white;
     padding: 4px 70px 4px 70px;
     
-    margin-bottom: 20px;
     border: none;
-    left: 15px;
 	
 }
 .fotoonder {
-  width: 350px;
-	margin-left: 20px
+  width: 100%;
+	object-fit: cover;
 }
 .spatie {
   padding-bottom: 300px;
@@ -122,30 +135,30 @@ ol {color: white;
     margin-bottom: 1rem;
     font-size: 18px;
 	line-height: 33px;
+	column-count: 2;
 }
 
 .ondertitle{
 	font-size: 18px;
     background-color:#EEB796;
-    border-radius: 20px;
+    border-radius: 6px;
     text-align: center;
     color: white;
     padding: 5px;
 	margin-bottom: 20px;
-	margin-left: 20px;
+	
 	
 }
 .cijfer2{
 	position: absolute;
-    top: 200px;
-    right: -10px;
+    bottom: 35%;
+    left: 85%;
     padding: 15px 24px 15px 24px;
     background-color: #EEB796;
     border-radius: 70%;
     color: white;
     font-weight: 500;
     font-size: 18px;
-	right: -30px;
 	
 }
 .purple{
@@ -161,3 +174,8 @@ ol {color: white;
 .foot{
 	background-color: none;
 }
+
+.link{
+	color: black;
+}
+
