@@ -22,17 +22,18 @@ input.form-control.mr-sm-2 {
 .grotetitel {
   font-size: 70px;
 	color: #D099F5;
+	font-family: "roboto","baskerville","Constantia";
 }
-.grotetitel{
-	font-size: 70px;
-}
+
 .kleinetitel{
 	font-size: 35px;
     padding-bottom: 25px;
     border-bottom: solid 20px #EEB796;
+	font-family: "Consolas",  "Lucida Sans Typewriter", "Monaco",  "monospace";
 	}
 .nav-link{
 	color: black !important;
+	font-family: "Lucida Grande", "Lucida Sans", "DejaVu Sans",  "sans-serif";
 }
 
 article{
@@ -51,6 +52,7 @@ h2{
     color: white;
     padding: 5px;
 	margin-bottom: 20px;
+	font-family: "Lucida Grande", "Lucida Sans", "DejaVu Sans",  "sans-serif";
 }
 .img-container {
 	position: relative;
@@ -86,6 +88,7 @@ h2{
     margin-bottom: none;
     border-radius: 30px;
     font-weight: 500;
+	font-family: "Lucida Grande", "Lucida Sans", "DejaVu Sans",  "sans-serif";
 	
 }
 
@@ -101,6 +104,7 @@ p {line-height: 80%;
     color: white;
     font-weight: 500;
     font-size: 18px;
+	font-family: "Lucida Grande", "Lucida Sans", "DejaVu Sans",  "sans-serif";
 	
 }
 a.btn-primary {
@@ -115,7 +119,7 @@ a.btn-primary {
     padding: 4px 70px 4px 70px;
     margin-right: 15px;
     border: none;
-	   
+	font-family: "Lucida Grande", "Lucida Sans", "DejaVu Sans",  "sans-serif";   
 	
 }
 .fotoonder {
@@ -129,6 +133,7 @@ a.btn-primary {
 .lijst {
   padding-top: 30px;
   font-size: 17px;
+font-family: "Lucida Grande", "Lucida Sans", "DejaVu Sans",  "sans-serif";
 }
 .spatie2 {
   margin-top: 100px;
@@ -152,6 +157,7 @@ ol {color: white;
     color: white;
     padding: 5px;
 	margin-bottom: 20px;
+	font-family: "Lucida Grande", "Lucida Sans", "DejaVu Sans",  "sans-serif";
 	
 	
 }
@@ -164,7 +170,8 @@ ol {color: white;
     border-radius: 70%;
     color: white;
     font-weight: 500;
-    font-size: 18px;	
+    font-size: 18px;
+	font-family: "Lucida Grande", "Lucida Sans", "DejaVu Sans",  "sans-serif";
 }
 
 .purple{
@@ -183,10 +190,15 @@ ol {color: white;
 
 .link{
 	color: black;
+	font-family: "Lucida Grande", "Lucida Sans", "DejaVu Sans",  "sans-serif";
 }
 
 .logoart{
 	width:100px}
+.mijnnaam{
+	font-family: "Lucida Grande", "Lucida Sans", "DejaVu Sans",  "sans-serif";
+	    padding-top: 20px;
+}
 
 
 /* Extra small devices (portrait phones, less than 576px)
